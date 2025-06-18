@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('netflixlogin.png') no-repeat center center/cover;
+  color: white;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 20px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.header-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.language-select {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.sign-in-btn {
+  background-color: rgb(218, 23, 23);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hero */
+.content {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.email-form input {
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+  border: none;
+  border-radius: 7px;
+}
+
+.email-form button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Trending */
+.trending {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.trending h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.trending-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.thumbnail {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.thumbnail span {
+  color: red;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+/* Reasons */
+.reasons {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: black;
+}
+
+.reasons h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.reasons-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.reason-card {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: left;
+}
+
+/* FAQ */
+.faq {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-question {
+  width: 100%;
+  background-color: #303030;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  background-color: #444;
+  padding: 20px;
+  color: white;
+}
+
+/* Email Again */
+.email-section {
+  text-align: center;
+  margin: 60px 0;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  color: #999;
+  padding: 40px 20px;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.footer-links a {
+  color: #999;
+  text-decoration: none;
+}
+
+.footer-language select {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.recaptcha-note {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
