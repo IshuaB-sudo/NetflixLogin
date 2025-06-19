@@ -24,6 +24,7 @@ body {
 .container {
   background-color: rgba(0, 0, 0, 0.7);
   padding-bottom: 60px;
+  padding: 0px 0px;
 }
 
 /* Header */
@@ -34,6 +35,12 @@ header {
   padding: 20px 40px;
 }
 
+.logo {
+    display: block;
+    width: 120px;
+    height: 30px;
+}
+    
 .logo-text {
   font-size: 2rem;
   font-weight: bold;
@@ -94,6 +101,8 @@ header {
 }
 
 .email-form input {
+  background-color: black;
+  color: white;
   padding: 12px;
   font-size: 25px;
   width: 400px;
