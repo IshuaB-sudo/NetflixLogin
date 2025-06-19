@@ -34,17 +34,16 @@ header {
   padding: 20px 40px;
 }
 
-<<<<<<< HEAD
 .logo {
     margin-right: right;
     width: 120px;
     height: 30px;
-=======
+}
+    
 .logo-text {
   font-size: 2rem;
   font-weight: bold;
   color: black;
->>>>>>> 68daaa6f1a9ddda812636b18e9f0f7a42e38ecd1
 }
 
 .header-right {
